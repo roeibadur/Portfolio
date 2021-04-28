@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  color: white;
+  font-family: 'Helvetica';
+}
+a{
+  color:#08fdd8;
+}
+h1 {
+  color: #08fdd8;
+}
+

@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: #08fdd8;
+  align-self: center;
+}
+h3{
+  color: white;
+  align-self: center;
+}
+img {
+  height: 100px;
+  width: 150px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: white;
+
+}
+pre {
+  color:white;
+  font-size: large;
+}

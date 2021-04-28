@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="rectangle-red">
+    <div class="title">
+      <h3>{{ project.name }}</h3>
+    </div>
+    <div class="img">
+      <img [src]="project.image" alt="projectImage" class="img-responsive" style="width: 300px; height: 150px;">
+    </div>
+    <p>{{ project.description }}</p>
+    <div class="buttons">
+      <a [href]="project.codePath" target="_blank"><button type="button" class="btn btn-primary">Code</button></a>
+      <a [href]="project.appPath" target="_blank"><button type="button" *ngIf="project.appPath != null"  class="btn btn-primary">App</button></a>
+    </div>
+  </div>
+</div>

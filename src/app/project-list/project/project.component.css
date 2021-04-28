@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #232b2b;
+}
+
+.rectangle-red {
+  border: 10px solid #bd0331;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+  width: 360px;
+  height: 703px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+a{
+  margin: 10px;
+}
+
+p {
+  margin-left: 5px;
+  color:white;
+  width: 300px;
+  padding: 20px;
+  font-family: 'Helvetica';
+}
+
+h3 {
+  margin: 5px;
+  color:white;
+  padding: 20px;
+}
+
+.title {
+  flex-basis: 15%;
+}
+
+.img {
+  flex-basis: 40%;
+  padding: 20px;
+}
+

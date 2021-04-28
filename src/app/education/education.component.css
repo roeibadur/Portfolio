@@ -1,0 +1,107 @@
+.bold {
+  font-weight:bold;
+  font-size: x-large;
+}
+
+.time{
+  position:absolute;
+  left:-200px;
+}
+
+.timeline-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-left:80px;
+  min-width: 400px;
+  font-family: 'Helvetica';
+  font-size: 14px;
+  color:white;
+}
+
+.StepProgress {
+  position: relative;
+  padding-left: 45px;
+  list-style: none;
+}
+
+.StepProgress::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid #CCC;
+}
+
+.StepProgress-item {
+  position: relative;
+  counter-increment: list;
+}
+
+.StepProgress-item:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.StepProgress-item::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  width: 10px;
+}
+
+.StepProgress-item::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -37px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #CCC;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.StepProgress-item.is-done::before {
+  border-left: 2px solid green;
+}
+
+.StepProgress-item.is-done::after {
+  font-size: 10px;
+  color: #FFF;
+  text-align: center;
+  border: 2px solid green;
+  background-color: green;
+}
+
+.StepProgress strong {
+  display: block;
+}
+
+h1 {
+  color:#08fdd8;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img {
+  width: 150px;
+  height: 100px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.details {
+  font-size: medium;
+}

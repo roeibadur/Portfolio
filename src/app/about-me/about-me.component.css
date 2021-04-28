@@ -1,0 +1,50 @@
+.all-page {
+  height: 100vh;
+}
+.container
+{
+  display: flex;
+  flex-direction: row;
+}
+.text
+{
+  flex-basis: 60%;
+}
+h2 {
+  color: white;
+  font-size: xx-large;
+}
+img
+{
+  margin-left: 30px;
+  width: 85%;
+  height: 70%;
+}
+p {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: x-large;
+}
+
+button {
+   color:#08fdd8;
+   border: #08fdd8 solid 1px;
+   background: #232b2b;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 45px;
+   padding-right: 45px;
+   margin-left: 40%;
+}
+
+button:hover {
+  color: black;
+  border: #08fdd8 solid 1px;
+  background: #08fdd8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-left: 40%;
+}
+
