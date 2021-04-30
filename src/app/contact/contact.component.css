@@ -1,8 +1,10 @@
 .container {
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 p {
   color: white;
   font-family: 'Helvetica';

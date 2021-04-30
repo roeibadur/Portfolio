@@ -1,3 +1,6 @@
+.page {
+  height: 110vh;
+}
 .bold {
   font-weight:bold;
   font-size: x-large;

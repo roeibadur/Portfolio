@@ -6,7 +6,9 @@
     <div class="img">
       <img [src]="project.image" alt="projectImage" class="img-responsive" style="width: 300px; height: 150px;">
     </div>
-    <p>{{ project.description }}</p>
+    <div class="desciription">
+      <p>{{ project.description }}</p>
+    </div>
     <div class="buttons">
       <a [href]="project.codePath" target="_blank"><button type="button" class="btn btn-primary">Code</button></a>
       <a [href]="project.appPath" target="_blank"><button type="button" *ngIf="project.appPath != null"  class="btn btn-primary">App</button></a>

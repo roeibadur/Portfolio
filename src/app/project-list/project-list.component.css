@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: row;
 }
+.page {
+  height: 100vh;
+}
+
 h1 {
   color:#08fdd8;
   display: flex;

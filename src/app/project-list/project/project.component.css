@@ -5,6 +5,8 @@
 }
 
 .rectangle-red {
+  display: flex;
+  flex-direction: column;
   border: 10px solid #bd0331;
   margin: 20px;
   margin-bottom: 0px;
@@ -12,13 +14,15 @@
   width: 360px;
   height: 703px;
 }
+
 .buttons {
-  display: flex;
-  flex-direction: row;
+
   align-self: center;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
 a{
   margin: 10px;
@@ -39,11 +43,22 @@ h3 {
 }
 
 .title {
-  flex-basis: 15%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
 
 .img {
-  flex-basis: 40%;
-  padding: 20px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: auto;
 }
 
+.desciription {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: auto;
+}

@@ -1,4 +1,4 @@
-import { Component , Input} from '@angular/core';
+import { Component , Input } from '@angular/core';
 import { Project } from '../project.model';
 
 @Component({
@@ -9,5 +9,7 @@ import { Project } from '../project.model';
 export class ProjectComponent {
   @Input() project: Project;
   constructor() { }
+
+
 
 }
