@@ -11,5 +11,9 @@
       <img src="../../assets/images/profile.jpg" alt="profileImg">
     </div>
   </div>
-  <button type="button" routerLink="" fragment = "projects">View my work </button>
+  <div class="buttons">
+    <button type="button" routerLink="" fragment = "projects">View my work </button>
+    <button type="button" (click)="onCV('doc')">Roei CV Doc</button>
+    <button type="button"(click)="onCV('pdf')">Roei CV PDF</button>
+  </div>
 </div>

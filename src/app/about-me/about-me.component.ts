@@ -9,4 +9,16 @@ export class AboutMeComponent {
 
   constructor() { }
 
+  onCV(file: string) {
+    let url;
+    if(file === 'doc') {
+      url= '../../assets/Roei Badur CV.docx'
+    }
+    else {
+      url = '../../assets/Roei Badur CV.pdf'
+    }
+    window.open(url,'_self');
+    window.open(url);
+  }
+
 }
